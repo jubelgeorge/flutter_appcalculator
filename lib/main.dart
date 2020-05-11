@@ -15,6 +15,9 @@ class Calc extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+          title: Text("hello"),
+        ),
         body: Main(),
       ),
     );
